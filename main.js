@@ -27,7 +27,7 @@ function showLayerNames() {
       }</ul>`;
 }
 
-function testFunction() {
+function playActions() {
   
   const app = require('photoshop').app;
 
@@ -63,4 +63,4 @@ function testFunction() {
 
 document.getElementById("btnPopulate").addEventListener("click", showLayerNames);
 
-document.getElementById("btnTest").addEventListener("click", testFunction);
+document.getElementById("btnTest").addEventListener("click", playActions);
